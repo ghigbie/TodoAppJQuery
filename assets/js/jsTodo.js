@@ -32,6 +32,6 @@ $("input[type='text']").keypress(function(event){
 	if(event.which === 13){
 		var textItem = $(this).val(); //grabbing new todo text from input
 		$("ul").append(`<li>${textItem}</li>`); //this appends the new text to the end of the li
-		$(this).val().clear();
+		//I would like to clear the field after I get the item
 	}
 });
