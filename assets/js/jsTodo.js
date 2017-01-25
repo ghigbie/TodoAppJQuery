@@ -16,12 +16,12 @@
 // 	}
 // });
 
-$("li").click(function(){
+$("ul").on("click", "li", function(){
 	$(this).toggleClass("completed");
 });
 
 //click on X to delete todo
-$("span").click(function(event){ //this can cause event bubbling
+$("ul").on("click", "span", function(event){ //this can cause event bubbling
 	$(this).parent().fadeOut(2000, function(){
 		$(this).remove(); //thiremoves the parent element after the fadeout() is called
 	}); 
