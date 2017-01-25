@@ -2,3 +2,17 @@
 body{
 	background: #232323;
 }
+
+#container{
+	width: 33%;
+	margin: 20% auto;
+	background: #83caf7;
+}
+
+li:nth-child(odd){
+	background: #f4f7f9;
+}
+
+li:nth-child(even){
+	background: #c0cdd6;
+}
