@@ -27,3 +27,9 @@ $("span").click(function(event){ //this can cause event bubbling
 	}); 
 	event.stopPropagation(); //this stops the bubbling up from happening
 });
+
+$("input[type='text]").keypress(function(event){
+	if(event.which === 13){
+		console.log("YOu hit enter");
+	}
+});
