@@ -19,6 +19,8 @@ h1{
 	float: left;
 	height: 95%;
 	background: #2980b9;
+	color: #ffffff;
+	margin: 0; /*no margin all around*/
 }
 
 button{
