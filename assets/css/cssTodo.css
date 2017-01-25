@@ -9,6 +9,21 @@ body{
 	background: #83caf7;
 }
 
+h1{
+	float: left;
+	height: 95%;
+}
+
+button{
+	float: left;
+	height: 95%;
+}
+
+input{
+	width: 98%;
+	margin: 2% auto;
+}
+
 li:nth-child(odd){
 	background: #f4f7f9;
 }
