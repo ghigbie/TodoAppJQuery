@@ -1,4 +1,9 @@
 /*created in command line*/
+/*this is a catch all for different element types*/
+img, embed, object, video{
+	max-width: 100%; /*this is a catch all reccomend by google developer advocate*/
+}
+
 body{
 	background: #232323;
 }
@@ -46,7 +51,7 @@ li:nth-child(even){
 
 @media only screen and (max-width: 800px){
 	#container{
-		width: 80%;
+		width: 75%;
 	}
 }
 
