@@ -40,6 +40,8 @@ input{
 
 ul{
 	list-style: none; /*this eliminates the bullet points*/
+	margin: 0;
+	padding: 0;
 }
 
 li:nth-child(odd){
