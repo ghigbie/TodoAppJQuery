@@ -6,6 +6,7 @@ img, embed, object, video{
 
 body{
 	background: #232323;
+	font-family: Roboto;
 }
 
 #container{
@@ -16,10 +17,9 @@ body{
 }
 
 h1{
-	float: left;
 	height: 95%;
 	background: #2980b9;
-	color: #ffffff;
+	color: #fff;
 	margin: 0; /*no margin all around*/
 	padding: 10px 20px;
 	text-transform: uppercase;
@@ -28,12 +28,12 @@ h1{
 }
 
 button{
+	width: 100%;
 	float: left;
 	height: 95%;
 }
 
 input{
-	width: 98%;
 	margin: 0; /*no margin all around*/
 	padding: 10px 20px;
 }
@@ -44,12 +44,15 @@ ul{
 	padding: 0;
 }
 
-li:nth-child(odd){
-	background: #f4f7f9;
+li{
+	background: #fff;
+	height: 40px;
+	
 }
 
-li:nth-child(even){
-	background: #c0cdd6;
+
+li:nth-child(2n){
+	background: #f7f7f7;
 }
 
 @media only screen and (max-width: 1024px){
