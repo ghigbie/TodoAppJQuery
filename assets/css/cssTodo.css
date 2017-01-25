@@ -21,6 +21,7 @@ h1{
 	background: #2980b9;
 	color: #ffffff;
 	margin: 0; /*no margin all around*/
+	padding: 10px 20px;
 }
 
 button{
@@ -30,7 +31,8 @@ button{
 
 input{
 	width: 98%;
-	margin: 2% auto;
+	margin: 0; /*no margin all around*/
+	padding: 10px 20px;
 }
 
 li:nth-child(odd){
