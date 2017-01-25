@@ -34,12 +34,19 @@ button{
 }
 
 input{
+	color: #2980b9;
 	width: 100%;
 	font-size: 18px;
 	background: #f7f7f7;
 	margin: 0; /*no margin all around*/
 	padding: 13px 13px 13px 20px;
-	box-sizing: border-box;
+	box-sizing: border-box;/*need to add browser specific support for this attribute*/
+}
+
+input:focus{
+	background: #fff;
+	border: 3px solid #2980b9;
+	outline: none;
 }
 
 ul{
