@@ -31,3 +31,27 @@ li:nth-child(odd){
 li:nth-child(even){
 	background: #c0cdd6;
 }
+
+@media only screen and (max-width: 1024px){
+	#container{
+		width: 33%;
+	}
+}
+
+@media only screen and (max-width: 900px){
+	#container{
+		width: 45%;
+	}
+}
+
+@media only screen and (max-width: 750px){
+	#container{
+		width: 70%;
+	}
+}
+
+@media only screen and (max-width: 600px){
+	#continaer{
+		width: 95%;
+	}
+}
