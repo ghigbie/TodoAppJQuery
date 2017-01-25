@@ -31,7 +31,7 @@ $("span").click(function(event){ //this can cause event bubbling
 $("input[type='text']").keypress(function(event){
 	if(event.which === 13){
 		var textItem = $(this).val(); //grabbing new todo text from input
-		$("ul").append(`<li>${textItem}</li>`); //this appends the new text to the end of the li
-		//I would like to clear the field after I get the item
+		$(this).val("");
+		$("ul").append(`<li><span>X</span> ${textItem}</li>`); //this appends the new text to the end of the li
 	}
 });
