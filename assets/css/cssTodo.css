@@ -12,6 +12,7 @@ body{
 	width: 33%;
 	margin: 20% auto;
 	background: #83caf7;
+	border: 2px solid gray;
 }
 
 h1{
@@ -60,3 +61,11 @@ li:nth-child(even){
 		width: 95%;
 	}
 }
+
+/*custom classes*/
+
+.completed{
+	color: gray;
+	text-decoration: line-through;
+}
+
