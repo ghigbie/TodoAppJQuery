@@ -21,6 +21,9 @@ $("li").click(function(){
 });
 
 //click on X to delete todo
-$("span").click(function(){
-	alert("clicked on the span");
+$("span").click(function(event){ //this can cause event bubbling
+	$(this).parent().fadeOut(2000, function(){
+		$(this).remove(); //thiremoves the parent element after the fadeout() is called
+	}); 
+	event.stopPropagation(); //this stops the bubbling up from happening
 });
