@@ -28,8 +28,10 @@ $("span").click(function(event){ //this can cause event bubbling
 	event.stopPropagation(); //this stops the bubbling up from happening
 });
 
-$("input[type='text]").keypress(function(event){
+$("input[type='text']").keypress(function(event){
 	if(event.which === 13){
-		console.log("YOu hit enter");
+		var textItem = $(this).val(); //grabbing new todo text from input
+		$("ul").append(`<li>${textItem}</li>`); //this appends the new text to the end of the li
+		$(this).val().clear();
 	}
 });
