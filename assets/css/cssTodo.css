@@ -4,6 +4,10 @@ img, embed, object, video{
 	max-width: 100%; /*this is a catch all reccomend by google developer advocate*/
 }
 
+.fa-plus{
+	float: right;
+}
+
 body{
 	background: #6190E8; /* fallback for old browsers */
 	background: -webkit-linear-gradient(to left, #6190E8 , #A7BFE8); /* Chrome 10-25, Safari 5.1-6 */

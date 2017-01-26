@@ -14,6 +14,6 @@ $("input[type='text']").keypress(function(event){
 	if(event.which === 13){
 		var textItem = $(this).val(); //grabbing new todo text from input
 		$(this).val("");
-		$("ul").append(`<li><span>X</span> ${textItem}</li>`); //this appends the new text to the end of the li
+		$("ul").append(`<li><span>class="fa fa-trahs"></i></span> ${textItem}</li>`); //this appends the new text to the end of the li
 	}
 });
