@@ -13,7 +13,7 @@ body{
 	width: 33%;
 	margin: 100px auto;
 	background: #f7f7f7;
-	box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.1); /*this gives the container a shawdow effect*/
 }
 
 h1{
@@ -48,6 +48,7 @@ input:focus{
 	border: 3px solid #2980b9;
 	outline: none;
 }
+
 
 ul{
 	list-style: none; /*this eliminates the bullet points*/
