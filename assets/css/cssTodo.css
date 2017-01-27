@@ -22,55 +22,6 @@ h1{
 	font-weight: 400; /*this is a normal font weight*/
 }
 
-ul{
-	list-style: none; /*this eliminates the bullet points*/
-	margin: 0;
-	padding: 0;
-}
-
-li{
-	background: #fff;
-	height: 40px;
-	line-height: 40px;
-	color: #666;
-	/*padding-left: 20px;*/
-}
-
-span{
-	background: #e74c3c;
-	height: 40px;
-	margin-right: 20px;
-	color: #fff;
-	width: 0;
-	display: inline-block;
-	text-align: center;
-	transition: 0.2s linear; /*this property affects the opacity as well as the "movement" of the opbject*/
-	opacity: 0;
-}
-
-.fa-plus{
-	float: right;
-}
-
-
-
-li:hover span{
-	width: 40px;
-	opacity: 1.0;
-}
-
-#container{
-	width: 33%;
-	margin: 100px auto;
-	background: #f7f7f7;
-	box-shadow: 0 0 3px rgba(0, 0, 0, 0.1); /*this gives the container a shawdow effect*/
-}
-
-button{
-	width: 100%;
-	float: left;
-	height: 95%;
-}
 
 input{
 	color: #2980b9;
@@ -104,10 +55,56 @@ li{
 	/*padding-left: 20px;*/
 }
 
-
 li:nth-child(2n){
 	background: #f7f7f7;
 }
+
+li:hover span{
+	width: 40px;
+	opacity: 1.0;
+}
+
+span{
+	background: #e74c3c;
+	height: 40px;
+	margin-right: 20px;
+	color: #fff;
+	width: 0;
+	display: inline-block;
+	text-align: center;
+	transition: 0.2s linear; /*this property affects the opacity as well as the "movement" of the opbject*/
+	opacity: 0;
+}
+
+.fa-plus{
+	float: right;
+}
+
+
+#container{
+	width: 33%;
+	margin: 100px auto;
+	background: #f7f7f7;
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.1); /*this gives the container a shawdow effect*/
+}
+
+button{
+	width: 100%;
+	float: left;
+	height: 95%;
+}
+
+input{
+	color: #2980b9;
+	width: 100%;
+	font-size: 18px;
+	background: #f7f7f7;
+	margin: 0; /*no margin all around*/
+	padding: 13px 13px 13px 20px;
+	box-sizing: border-box;/*need to add browser specific support for this attribute*/
+	border: 3px solid rgba(0,0,0,0); /*this creates an invisible border that keeps the input flush*/
+}
+
 
 @media only screen and (max-width: 1024px){
 	#container{
