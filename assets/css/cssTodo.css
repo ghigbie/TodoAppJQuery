@@ -15,6 +15,14 @@ body{
     font-family: Roboto;  
 }
 
+span{
+	background: #e74c3c;
+	height: 40px;
+	margin-right: 20px;
+	text-align: center;
+	color: #fff;
+}
+
 #container{
 	width: 33%;
 	margin: 100px auto;
