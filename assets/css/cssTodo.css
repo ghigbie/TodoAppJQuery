@@ -23,10 +23,13 @@ span{
 	width: 0;
 	display: inline-block;
 	text-align: center;
+	transition: 0.2s linear; /*this property affects the opacity as well as the "movement" of the opbject*/
+	opacity: 0;
 }
 
 li:hover span{
 	width: 40px;
+	opacity: 1.0;
 }
 
 #container{
@@ -61,6 +64,7 @@ input{
 	margin: 0; /*no margin all around*/
 	padding: 13px 13px 13px 20px;
 	box-sizing: border-box;/*need to add browser specific support for this attribute*/
+	border: 3px solid rgba(0,0,0,0); /*this creates an invisible border that keeps the input flush*/
 }
 
 input:focus{
